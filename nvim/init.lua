@@ -57,8 +57,8 @@ vim.opt.rtp:prepend(lazypath)
         local bg_search = "#0A64AC"
         local bg_visual = "#3E3E75"
         local fg = "#CBE0F0"
-        local fg_dark = "#B4D0E9"
-        local fg_gutter = "#627E97"
+        local fg_dark = "#698562"
+        local fg_gutter = "#baccdb"
         local border = "#547998"
 
         require("tokyonight").setup({
@@ -90,7 +90,7 @@ vim.opt.rtp:prepend(lazypath)
         vim.cmd.colorscheme("tokyonight")
     end,
 },
-{
+--[[{
     "nvim-lualine/lualine.nvim",
     dependencies = {
         "nvim-tree/nvim-web-devicons",
@@ -151,7 +151,7 @@ vim.opt.rtp:prepend(lazypath)
             },
         })
     end,
-},
+},]]
     {
     "echasnovski/mini.pairs",
     version = false,
