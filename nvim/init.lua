@@ -48,7 +48,7 @@ vim.opt.rtp:prepend(lazypath)
     "folke/tokyonight.nvim",
     priority = 1000,
     config = function()
-        local transparent= true
+        local transparent= false
 
         local bg = "#0B2430"
         local bg_dark = "#394d49"
@@ -57,7 +57,7 @@ vim.opt.rtp:prepend(lazypath)
         local bg_search = "#0A64AC"
         local bg_visual = "#3E3E75"
         local fg = "#CBE0F0"
-        local fg_dark = "#698562"
+        local fg_dark = "#e0af5a"
         local fg_gutter = "#baccdb"
         local border = "#547998"
 
