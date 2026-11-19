@@ -10,7 +10,8 @@ truncate_to_repo = false
 
 [git_branch]
 symbol = "🌱 "
-
+[fill]
+symbol = "."
 [python]
 symbol = "🐍 "
 
